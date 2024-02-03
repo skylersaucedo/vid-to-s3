@@ -1,6 +1,6 @@
 ﻿namespace vid_to_s3
 {
-    partial class Form1
+    partial class frmMain
     {
         /// <summary>
         /// Required designer variable.
@@ -42,7 +42,7 @@
             this.btnSelectVideo.TabIndex = 0;
             this.btnSelectVideo.Text = "select video";
             this.btnSelectVideo.UseVisualStyleBackColor = true;
-            this.btnSelectVideo.Click += new System.EventHandler(this.btnSendVideo_Click);
+            this.btnSelectVideo.Click += new System.EventHandler(this.btnSelectVideo_Click);
             // 
             // textBox1
             // 
@@ -61,7 +61,7 @@
             this.btnSendVideo.TabIndex = 2;
             this.btnSendVideo.Text = "send video";
             this.btnSendVideo.UseVisualStyleBackColor = true;
-            this.btnSendVideo.Click += new System.EventHandler(this.btnSendVideo_Click_1);
+            this.btnSendVideo.Click += new System.EventHandler(this.btnSendVideo_Click);
             // 
             // Form1
             // 
